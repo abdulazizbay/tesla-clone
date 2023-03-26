@@ -1,14 +1,15 @@
+
 import styled from "styled-components"
 import model3 from '../../assets/img/tesla.png'
 interface IProps{
     title:string
-    
+    image:string
 }
 
 export const DynamicModel = (props:IProps)=>{
     return(
         <>
-            <StyledDynamicModel>
+            <StyledDynamicModel title={props.title} image={props.image}>
                 <div className={props.title}>
                     <div className="container">
                         <div className="title-delevery">
@@ -26,9 +27,9 @@ export const DynamicModel = (props:IProps)=>{
     )
 }
 
-const StyledDynamicModel = styled.div`
+const StyledDynamicModel = styled.div<IProps>`
     .container{
-        
-    background-image: url(${model3});
+        background: url(${props=>props.image}),no-repeat,center, #d9d9d9 ;
+        background-size: cover;;
     }
-`
+`;
