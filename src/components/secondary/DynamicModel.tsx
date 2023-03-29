@@ -1,4 +1,3 @@
-
 import styled from "styled-components"
 import model3 from '../../assets/img/tesla.png'
 interface IProps{
@@ -31,5 +30,7 @@ const StyledDynamicModel = styled.div<IProps>`
     .container{
         background: url(${props=>props.image}),no-repeat,center, #d9d9d9 ;
         background-size: cover;;
+        height: 800px;
+        background-color: aqua;
     }
 `;
