@@ -43,7 +43,7 @@ const StyledNavBar = styled.div`
             display: flex;
             position: fixed;
             top: 0;
-            padding: 10px 0 0 30px;
+            padding: 20px 30px 0 30px;
             .logo{
                 
                 img{
@@ -58,11 +58,11 @@ const StyledNavBar = styled.div`
                     font-size: 0.92rem;
                     letter-spacing: 0.6px;
                     text-decoration: none;
-                    font-weight: 500;
+                    font-weight: bold;
                     opacity: 0.8;
                     &:hover{
-                    background-color: rgba(90,90,90,0.1);
-                }
+                        box-shadow: 10px rgba(90,90,90,0.1);
+                    }
 
                 }
                 
@@ -75,7 +75,7 @@ const StyledNavBar = styled.div`
                     font-size: 0.92rem;
                     letter-spacing: 0.6px;
                     text-decoration: none;
-                    font-weight: 500;
+                    font-weight: bold;
                     opacity: 0.8;
 
                     &:hover{

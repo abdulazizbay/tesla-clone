@@ -7,8 +7,8 @@ export const Home =()=>{
     return (
         <>
             <div className="home-container">
-                <DynamicModel title="ModelX" image={model3}/>
-
+                <DynamicModel title="Model 3" image={model3}/>
+                <DynamicModel title="Model3" image={model3}/>
             </div>
         </>
     )
