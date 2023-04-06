@@ -7,7 +7,7 @@ interface IButtons  {
 export const Buttons = (props:IButtons)=>{
     return (
         <StyledButtons content={props.content}>
-            <button>{props.content}</button>
+            <button >{props.content}</button>
         </StyledButtons>
     )
 }

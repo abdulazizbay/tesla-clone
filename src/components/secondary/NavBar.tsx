@@ -16,7 +16,7 @@ export const NavBar = ()=>{
                             <img src={logo} alt="logo" />
                         </div>
                         <div className="center-elements">
-                            <div><a href='/'><p>Model S</p></a></div>
+                            <div><a href='/models'><p>Model S</p></a></div>
                             <div><a href='/'><p>Model 3</p></a></div>
                             <div><a href='/'><p>Model X</p></a></div>
                             <div><a href='/'><p>Model Y</p></a></div>

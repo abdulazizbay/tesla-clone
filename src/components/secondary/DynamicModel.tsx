@@ -12,11 +12,11 @@ export const DynamicModel = (props:IProps)=>{
             <StyledDynamicModel title={props.title} image={props.image}>
                 <div className={props.title}>
                     <div className="container">
-                        <div className="title-delevery">
+                        <div className="title-delevery"  data-aos='fade-in'>
                             <h1>{props.title}</h1>
                             <p>Order Online for <a href='/'>Touchless Delivery</a></p>
                         </div>
-                        <div className="buttons">
+                        <div className="buttons" >
                             <Buttons content='Custom Order'/>
                             <Buttons content="Existing Inventory"/>
                         </div>
@@ -36,7 +36,7 @@ const StyledDynamicModel = styled.div<IProps>`
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 100px 0 80px 0;
+        padding: 100px 0 60px 0;
         .title-delevery{
             h1{
                 font-size: 2.5rem;
