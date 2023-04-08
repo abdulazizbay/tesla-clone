@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Buttons } from "./Buttons"
+import { Buttons } from "../home/Buttons"
 interface IModelInfoSec{
     title:string,
     background:string,

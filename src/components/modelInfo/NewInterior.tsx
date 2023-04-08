@@ -32,14 +32,6 @@ const StyledInterior = styled.div`
             display: flex;
             font-size: 33px;
             font-weight: 900;
-            /* animation-name: reveal;
-            position: relative;
-            animation-duration: 2s;  */
-        }
-        /* @keyframes reveal{
-            0% {top:40px}
-            100% {top:0}
-        } */
         .image{
             height: 85vh;
             background: url(${interiorImage});
